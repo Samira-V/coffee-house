@@ -10,17 +10,11 @@
   padding-right: 30px;
   height: 90px;
   align-items: center;
-  justify-content: center;
   margin: 0 auto;
   max-width: 1192px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   justify-content: space-between;
-  position: fixed;
-  top:40px;
-  right: 0;
-  left: 0;
-  width: 100%;
 }
 .navbar:before {
   content: "";
@@ -54,11 +48,6 @@
   position: absolute;
   width: 100%;
   z-index: 300;
-}
-.navbar .logo{
-width: 80px;
-height: 80px;
-object-fit: contain;
 }
 .links {
   display: flex;
